@@ -26,6 +26,12 @@
 
 .timeImg {
     width: 200px;
+    border-radius: 20%;
+}
+
+.timeImg:hover {
+    width: 220px;
+    transition: 0.2s ease-in-out;
 }
 
 .timeNome {

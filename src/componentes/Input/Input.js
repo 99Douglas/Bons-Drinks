@@ -3,6 +3,7 @@ import {useState} from 'react'
 import './input.css'
 
 const Input = (props) => {
+
     return (
         <div>
             <label htmlFor={props.htmlFor} className="labelInput">{props.children}</label>

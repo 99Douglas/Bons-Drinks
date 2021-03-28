@@ -4,7 +4,7 @@ import './nossotime.css'
 const NossoTime = () => {
     return (
         <div className="divTime">
-            <h1 className="timeTitle">Sobre Nós</h1>
+            <h1 className="timeTitle">Nosso Time</h1>
             <img className="timeImg fotopessoa1" src="https://randomuser.me/api/portraits/women/14.jpg"></img>
             <section className="pessoa1">
                 <h2 className="timeNome">Diana Müller</h2>

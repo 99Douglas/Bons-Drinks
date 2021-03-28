@@ -5,7 +5,7 @@ import Input from './componentes/Input/Input';
 import Footer from './componentes/Footer/Footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './componentes/Home/Home';
-import BuscarDrinks from './componentes/Api/BuscarDrinks';
+import Drinks from './componentes/Drinks/Drinks';
 import SobreNos from './componentes/Sobre/SobreNos';
 import NossoTime from './componentes/Time/NossoTime';
 
@@ -26,6 +26,9 @@ function App() {
           </Route>
           <Route path="/time">
             <NossoTime className="conteudo" />
+          </Route>
+          <Route path="/drinks/">
+            <Drinks className="conteudo" />
           </Route>
         </Switch>
         <Footer />

@@ -1,0 +1,46 @@
+.divBusca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divConteudoBusca {
+    display: grid;
+    grid-template-areas: "botao" "foto" "info1" "info2";
+    grid-template-rows: auto;
+}
+
+.imgBusca {
+    grid-area: foto;
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.imgBusca:hover {
+    width: 210px;
+    transition: ease-in-out;
+}
+
+.titleBusca {
+    margin-top: 30px;
+    grid-area: info1;
+    grid-area: titulo;
+    text-align: center;
+    color: #5C0511;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+}
+
+.txtBusca {
+    margin-top: 30px;
+    grid-area: info2;
+    font-family: "Open Sans Condensed", sans-serif;
+    margin-bottom: 30px;
+}
+
+.divConteudoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
