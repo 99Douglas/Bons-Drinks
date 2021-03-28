@@ -17,3 +17,7 @@ Irá iniciar o seu aplicativo em http://localhost:3000, onde você deverá abrir
 ## Funcionalidades
 
 A aplicação consegue lhe mostrar um drink aleatório e buscar drinks dentro da API. O resto da aplicação é mockada.
+
+### Deploy
+
+https://drinks-babadeiros.netlify.app
