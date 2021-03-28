@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Open+Sans+Condensed:wght@700&display=swap");
+
+header{
+    grid-area: header;
+    box-shadow: 5px 5px 10px;
+    background-color: #FFFBEF;
+    color: #000;
+    height: 60px;
+    font-size: 28px; 
+    font-weight: bold;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 60px;
+}
+
+.item {
+    color: black;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+}
+
+.itemPrincipal {
+    font-family: "Bilbo Swash Caps", cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F9AE48;
+    cursor: pointer;
+}

@@ -41,22 +41,14 @@
   box-shadow: 0 3px 20px #000000;
 }
 
-.navBar {
-  display: flex;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: space-around;
-  padding-top: 20px;
-  height: 40px;
-  background-color: red;
-}
-
-.divForm {
-  display: flex;
-  justify-content: space-around;
-}
-
-.form {
+.divMae{
   display: grid;
-  grid-template-rows: 50px 50px 50px 50px;
-  grid-template-columns: 100px;
+  grid-template-areas: "header" "conteudo" "footer";
+  grid-template-rows: 60px auto 40px;
+  grid-template-columns: 5fr;
+  background-color: #fffdf8;
+}
+
+.conteudo {
+  grid-area: conteudo;
 }

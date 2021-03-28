@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+footer{
+    grid-area: footer;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    background-color: #fffbef;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+    padding-top: 10px;
+}
+
+.infoFooter{
+    font-size: medium;
+    font-family: "Open Sans";
+}
